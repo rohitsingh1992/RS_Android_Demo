@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/mainTextViewSMSNumber"
+        android:text="SMS Number"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+    <TextView
+        android:id="@+id/mainTextViewCallNumber"
+        android:layout_below="@+id/mainTextViewSMSNumber"
+        android:text="Call Number"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+
+    <Button
+        android:id="@+id/mainButtonSendDetails"
+        android:text="SEND Details"
+        android:layout_below="@+id/mainTextViewCallNumber"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <Button
+        android:id="@+id/mainButtonGoBack"
+        android:text="Reset Details"
+        android:layout_below="@+id/mainButtonSendDetails"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/mainButtonSendDetails"
+        android:id="@+id/mainLocation"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:text="Location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>

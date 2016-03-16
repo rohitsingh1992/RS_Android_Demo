@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Hospital App</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+    <string name="empty_sms_number">Please enter SMS number</string>
+    <string name="empty_call_number">Please enter call number</string>
+    <string name="invalid_sms_mobile_number">Invalid mobile number for SMS</string>
+    <string name="invalid_call_mobile_number">Invalid mobile number for Call</string>
+    <string name="title_activity_splash_screen">Hospital App</string>
+
+
+
+</resources>

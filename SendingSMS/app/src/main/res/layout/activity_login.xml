@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="80dp"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                tools:context="com.example.rohit.sendingsms.LoginActivity">
+
+    <TextView
+        android:text="Enter emergency SMS mobile no"
+        android:id="@+id/loginTextViewTitleTextView"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/loginEditTextEmagencySMSNumber"
+        android:singleLine="true"
+        android:hint="Moobile no without STD code"
+        android:inputType="phone"
+        android:layout_below="@+id/loginTextViewTitleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"/>
+
+    <TextView
+        android:text="Enter emergency Call mobile no"
+        android:layout_below="@+id/loginEditTextEmagencySMSNumber"
+        android:id="@+id/loginTextViewCallTitle"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/loginEditTextEmagencyCallNumber"
+        android:singleLine="true"
+        android:hint="Moobile no without STD code"
+        android:inputType="phone"
+        android:layout_below="@+id/loginTextViewCallTitle"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"/>
+
+    <Button
+        android:id="@+id/loginButtonSaveDetails"
+        android:layout_below="@id/loginEditTextEmagencyCallNumber"
+        android:layout_width="wrap_content"
+        android:text="Save"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
